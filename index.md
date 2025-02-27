@@ -35,7 +35,9 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 
 ![performance](/static/image/com_sota3_min16_00.png)
 
-*Figure 2: Some visual segmentation results of ACDC night val for the `Cityscapes → ACDC night` task. With the teacher model parameters feedback, our method is superior at predicting the street-side structures (building, fence) and easily-confused classes (traffic).*
+*Figure 2: Some visual segmentation results of ACDC night val for the `Cityscapes → ACDC night` task. With the teacher model parameters feedback, our method is superior at predicting the street-side structures (building, fence) and easily-confused classes (traffic sign, terrain).*
+
+
 
 ## Citation
 ```
