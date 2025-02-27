@@ -38,16 +38,14 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 *Figure 2: Some visual segmentation results of ACDC night val for the `Cityscapes → ACDC night` task. With the teacher model parameters feedback, our method is superior at predicting the street-side structures (building, fence) and easily-confused classes (traffic sign, terrain).*
 
 
-
-## Citation
+## BibTeX
 ```
-@article{turing1936computable,
-  title={On computable numbers, with an application to the Entscheidungsproblem},
-  author={Turing, Alan Mathison},
-  journal={Journal of Mathematics},
-  volume={58},
-  number={345-363},
-  pages={5},
-  year={1936}
+@incollection{huang2023dtbs,
+  title={Dtbs: Dual-teacher bi-directional self-training for domain adaptation in nighttime semantic segmentation},
+  author={Huang, Fanding and Yao, Zihao and Zhou, Wenhui},
+  booktitle={ECAI 2023},
+  pages={1084--1091},
+  year={2023},
+  publisher={IOS Press}
 }
 ```
