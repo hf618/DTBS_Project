@@ -2,11 +2,11 @@
 layout: project_page
 permalink: /
 
-title: On Computable Numbers, with an Application to the Entscheidungsproblem
+title: DTBS: Dual-Teacher Bi-directional Self-training for Domain Adaptation in Nighttime Semantic Segmentation
 authors:
-    A. M. Turing
+    Fanding Huang, Zihao Yao, Wenhui Zhou
 affiliations:
-    King's College, Cambridge
+    Hangzhou Dianzi University, University of Wollongong
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 video: https://www.youtube.com/results?search_query=turing+machine
 arXiv: https://huggingface.co/docs/datasets
