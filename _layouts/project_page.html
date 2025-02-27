@@ -49,17 +49,26 @@
           <h1 class="title is-1 publication-title">{{ page.title }}</h1>
           {% if page.authors %}
           <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              {{ page.authors }}
-            </span>
+            {% for author in page.authors %}
+              <span class="author-block">
+                {% if author.link %}
+                  <a href="{{ author.link }}" target="_blank">{{ author.name }}</a><sup>{{ author.sup }}</sup>
+                {% else %}
+                  {{ author.name }}<sup>{{ author.sup }}</sup>
+                {% endif %}
+                {% if forloop.last == false %},{% endif %}
+              </span>
+            {% endfor %}
           </div>
           {% endif %}
 
           {% if page.affiliations %}
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              {{ page.affiliations }}
-            </span>
+          <div class="is-size-5 publication-affiliations">
+            {% for id, affiliation in page.affiliations %}
+              <span class="affiliation-block">
+                <sup>{{ id }}</sup>{{ affiliation }}{% if forloop.last == false %},{% endif %}
+              </span>
+            {% endfor %}
           </div>
           {% endif %}
 
@@ -77,18 +86,6 @@
                 </a>
               </span>
               {% endif %}
-              <!-- Video Link. -->
-              {% if page.video %}
-              <span class="link-block">
-                <a href="{{ page.video }}"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
-              {% endif %}
               <!-- Code Link. -->
               {% if page.code %}
               <span class="link-block">
@@ -98,18 +95,18 @@
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
-                  </a>
+                </a>
               </span>
               {% endif %}
-              <!-- Dataset Link. -->
-              {% if page.data %}
+              <!-- arXiv Link. -->
+              {% if page.arXiv %}
               <span class="link-block">
-                <a href="{{ page.data }}"
+                <a href="{{ page.arXiv }}"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fas fa-database"></i>
+                      <i class="fas fa-archive"></i>
                   </span>
-                  <span>Data</span>
+                  <span>arXiv</span>
                 </a>
               </span>
               {% endif %}
@@ -121,6 +118,7 @@
   </div>
 </section>
 
+  
 <section class="section">
 <div class="container is-max-desktop">
 
