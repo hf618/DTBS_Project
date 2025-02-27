@@ -7,9 +7,9 @@ authors:
     Fanding Huang, Zihao Yao, Wenhui Zhou
 affiliations:
     Hangzhou Dianzi University, University of Wollongong
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
-video: https://www.youtube.com/results?search_query=turing+machine
-arXiv: https://huggingface.co/docs/datasets
+paper: https://ebooks.iospress.nl/doi/10.3233/FAIA230382
+code: https://github.com/hf618/DTBS
+arXiv: https://arxiv.org/abs/2401.01066
 ---
 
 <!-- Using HTML to center the abstract -->
