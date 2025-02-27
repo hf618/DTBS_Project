@@ -4,7 +4,7 @@ permalink: /
 
 title: DTBS Dual-Teacher Bi-directional Self-training for Domain Adaptation in Nighttime Semantic Segmentation
 authors:
-    Fanding Huang, Zihao Yao, Wenhui Zhou
+    Fanding Huang<sup>1</sup>, Zihao Yao, Wenhui Zhou
 affiliations:
     Hangzhou Dianzi University, University of Wollongong
 paper: https://ebooks.iospress.nl/doi/10.3233/FAIA230382
