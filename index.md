@@ -29,9 +29,9 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 
 ## Pipline
 
-![Turing Machine](/static/image/Turing_machine.png)
+![pipline](/static/image/overview2.pdf)
 
-*Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).*
+*Figure 1: Overview of the proposed Dual-teacher Bidirectional Self-training (DTBS) architecture. Source flow ① → Target-day flow ② → Target-night flow ③ → T-S Feedback ④ are the four sub-flows that make up each iteration, with `sg` standing for no gradient backward propagation. The first three workflows achieve smooth domain adaptation. T-S feedback integrates knowledge to iteratively refine the student.*
 
 ## Table: Comparison of Computable and Non-Computable Numbers
 
