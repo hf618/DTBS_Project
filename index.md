@@ -1,12 +1,11 @@
 ---
 layout: project_page
 permalink: /
-
 title: "DTBS: Dual-Teacher Bi-directional Self-training for Domain Adaptation in Nighttime Semantic Segmentation"
 authors:
-  - name: "Fanding Huang"
-    link: "https://scholar.google.com/citations?hl=zh-CN&user=EKcfr18AAAAJ"
-    sup: "1"
+    [Fanding Huang](https://scholar.google.com/citations?hl=zh-CN&user=EKcfr18AAAAJ)<sup>1</sup>, 
+    Zihao Yao<sup>2</sup>, 
+    Wenhui Zhou<sup>1,*</sup>
 affiliations:
     <sup>1</sup>Hangzhou Dianzi University, <sup>2</sup>University of Wollongong  
 paper: https://ebooks.iospress.nl/doi/10.3233/FAIA230382
