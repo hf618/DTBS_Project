@@ -6,7 +6,7 @@ title: "DTBS: Dual-Teacher Bi-directional Self-training for Domain Adaptation in
 authors:
     "Fanding Huang<sup>1</sup>, 
     Zihao Yao<sup>2</sup>, 
-    Wenhui Zhou<sup>1,*</sup>"
+    Wenhui Zhou<sup>1,&dagger;</sup>"
 affiliations:
     <sup>1</sup>Hangzhou Dianzi University, <sup>2</sup>University of Wollongong  
 paper: https://ebooks.iospress.nl/doi/10.3233/FAIA230382
