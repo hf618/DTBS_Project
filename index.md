@@ -9,6 +9,7 @@ authors:
     Wenhui Zhou<sup>1,&dagger;</sup>"
 affiliations:
     <sup>1</sup>Hangzhou Dianzi University, <sup>2</sup>University of Wollongong  
+    ECAI 2023
 paper: https://ebooks.iospress.nl/doi/10.3233/FAIA230382
 code: https://github.com/hf618/DTBS
 arXiv: https://arxiv.org/abs/2401.01066
