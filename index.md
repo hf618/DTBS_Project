@@ -43,12 +43,13 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 
 ## BibTeX
 ```
-@incollection{huang2023dtbs,
-  title={Dtbs: Dual-teacher bi-directional self-training for domain adaptation in nighttime semantic segmentation},
-  author={Huang, Fanding and Yao, Zihao and Zhou, Wenhui},
-  booktitle={ECAI 2023},
-  pages={1084--1091},
-  year={2023},
-  publisher={IOS Press}
+@misc{huang2024dtbsdualteacherbidirectionalselftraining,
+      title={DTBS: Dual-Teacher Bi-directional Self-training for Domain Adaptation in Nighttime Semantic Segmentation}, 
+      author={Fanding Huang and Zihao Yao and Wenhui Zhou},
+      year={2024},
+      eprint={2401.01066},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2401.01066}, 
 }
 ```
