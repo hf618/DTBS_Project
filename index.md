@@ -32,8 +32,7 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 ![motivation](/static/image/motivation.png)
 
 *Figure 1: Two shortcomings of previous methods: (1) Noise of supervised signals due to the large domain gap.
-(2) Conventional self-training ignores feedback from teacher models.
-*
+(2) Conventional self-training ignores feedback from teacher models.*
 
 ## Pipline
 
