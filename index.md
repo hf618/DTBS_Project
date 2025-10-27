@@ -27,18 +27,25 @@ Due to the poor illumination and the difficulty in annotating, nighttime conditi
 
 ---
 
+## Motivation
+
+![motivation](/static/image/motivation.png)
+
+*Figure 1: Two shortcomings of previous methods: (1) Noise of supervised signals due to the large domain gap.
+(2) Conventional self-training ignores feedback from teacher models.
+*
 
 ## Pipline
 
 ![pipline](/static/image/overview2_00.png)
 
-*Figure 1: Overview of the proposed Dual-teacher Bidirectional Self-training (DTBS) architecture. Source flow ① → Target-day flow ② → Target-night flow ③ → T-S Feedback ④ are the four sub-flows that make up each iteration, with `sg` standing for no gradient backward propagation. The first three workflows achieve smooth domain adaptation. T-S feedback integrates knowledge to iteratively refine the student.*
+*Figure 2: Overview of the proposed Dual-teacher Bidirectional Self-training (DTBS) architecture. Source flow ① → Target-day flow ② → Target-night flow ③ → T-S Feedback ④ are the four sub-flows that make up each iteration, with `sg` standing for no gradient backward propagation. The first three workflows achieve smooth domain adaptation. T-S feedback integrates knowledge to iteratively refine the student.*
 
 ## Performance
 
 ![performance](/static/image/com_sota3_min16_00.png)
 
-*Figure 2: Some visual segmentation results of ACDC night val for the `Cityscapes → ACDC night` task. With the teacher model parameters feedback, our method is superior at predicting the street-side structures (building, fence) and easily-confused classes (traffic sign, terrain).*
+*Figure 3: Some visual segmentation results of ACDC night val for the `Cityscapes → ACDC night` task. With the teacher model parameters feedback, our method is superior at predicting the street-side structures (building, fence) and easily-confused classes (traffic sign, terrain).*
 
 
 ## BibTeX
